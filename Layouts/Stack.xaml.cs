@@ -6,4 +6,9 @@ public partial class Stack : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void BaFlexClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Flex());
+    }
 }

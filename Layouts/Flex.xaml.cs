@@ -1,8 +1,8 @@
 namespace Layouts;
 
-public partial class NewPage1 : ContentPage
+public partial class Flex : ContentPage
 {
-	public NewPage1()
+	public Flex()
 	{
 		InitializeComponent();
 	}
