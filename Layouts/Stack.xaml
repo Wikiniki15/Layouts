@@ -4,10 +4,10 @@
              x:Class="Layouts.Stack"
              Title="Stack">
 
-    <VerticalStackLayout Margin="20,35,20,25">
-        <Label Text="The VericalStackLayout has its Margin property set, to control the rendering position of the VerticalStackLayout." />
-        <Label Text="The Padding property can be set to specify the distance between the VerticalStackLayout and its children." />
-        <Label Text="The Spacing property can be set to specify the distance between views in the VerticalStackLayout." />
+    <VerticalStackLayout Margin="20,20,20,20">
+        <Label Text="Jessica Olalla" FontFamily="Verdana" FontSize="47"/>
+        <Label Text="Jessica Olalla" FontFamily="Times New Roman" FontSize="20"/>
+        <Label Text="Jessica Olalla" FontFamily="Courier New" FontSize="75"/>
     </VerticalStackLayout>
 
 </ContentPage>
