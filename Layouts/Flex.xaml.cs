@@ -6,4 +6,8 @@ public partial class Flex : ContentPage
 	{
 		InitializeComponent();
 	}
+    private void BaAbsClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Absolute());
+    }
 }

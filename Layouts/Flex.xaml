@@ -3,11 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Layouts.Flex"
              Title="Flex">
+    
     <FlexLayout Direction="Column"
             AlignItems="Center"
             JustifyContent="SpaceEvenly">
-        <Label Text="FlexLayout in Action" />
-        <Button Text="Button" />
-        <Label Text="Another Label" />
+
+        <HorizontalStackLayout Margin="30">
+            <Button  BackgroundColor="Transparent" WidthRequest="90" HeightRequest="90" Clicked="BaAbsClicked">
+                <Button.ImageSource>
+                    <FileImageSource File="bailarina.png"/>
+                </Button.ImageSource>
+            </Button>
+
+            <Label Text="Jessica Olalla"
+            FontSize="25" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Margin="30">
+            <Button  BackgroundColor="Transparent" WidthRequest="90" HeightRequest="100" Clicked="BaAbsClicked">
+                <Button.ImageSource>
+                    <FileImageSource File="dance.png"/>
+                </Button.ImageSource>
+            </Button>
+
+            <Label Text="Jessica Olalla"
+            FontSize="25" />
+        </HorizontalStackLayout>
     </FlexLayout>
+
 </ContentPage>
