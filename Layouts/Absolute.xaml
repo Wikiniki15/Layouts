@@ -5,15 +5,15 @@
              Title="Absolute">
     
     <AbsoluteLayout Margin="40">
-        <BoxView Color="Red"
+        <BoxView Color="Brown"
              AbsoluteLayout.LayoutFlags="PositionProportional"
              AbsoluteLayout.LayoutBounds="0.5, 0, 100, 100"
              Rotation="30" />
-        <BoxView Color="Green"
+        <BoxView Color="Orange"
              AbsoluteLayout.LayoutFlags="PositionProportional"
              AbsoluteLayout.LayoutBounds="0.5, 0, 100, 100"
              Rotation="60" />
-        <BoxView Color="Blue"
+        <BoxView Color="LightBlue"
              AbsoluteLayout.LayoutFlags="PositionProportional"
              AbsoluteLayout.LayoutBounds="0.5, 0, 100, 100" />
         <Button
