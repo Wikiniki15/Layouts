@@ -6,4 +6,8 @@ public partial class Absolute : ContentPage
 	{
 		InitializeComponent();
 	}
+    private void GridClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Grid());
+    }
 }
