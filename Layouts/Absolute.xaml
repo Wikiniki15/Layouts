@@ -18,6 +18,8 @@
              AbsoluteLayout.LayoutBounds="0.5, 0, 100, 100" />
         <Button
          x:Name="BGrid"
+         AbsoluteLayout.LayoutBounds="1, 1, AutoSize, Autosize"
+         AbsoluteLayout.LayoutFlags="PositionProportional"
          Text="Ir a GridLayout" 
          Clicked="GridClicked" />
     </AbsoluteLayout>

@@ -29,7 +29,7 @@
         </Grid>
         
         <Grid Grid.Row="1">
-            <Button
+            <Button BackgroundColor="Purple"
              x:Name="BaStack"
              Text="Ir a StackLayout" 
              Clicked="BaStackClicked"/>
